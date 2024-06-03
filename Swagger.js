@@ -8,6 +8,12 @@ const options = {
       version: '1.0.0',
       description: 'API endpoints for managing patients',
     },
+    servers: [
+      {
+        url: 'https://patient-crud.onrender.com/api',
+        description: 'Development server',
+      },
+    ],
   },
   apis: ['./Routes/Patientroutes.js'], // Path to the API routes folder
 };
