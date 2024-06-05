@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'https://patient-crud.onrender.com/api',
+        url: 'https://patient-crud.onrender.com',
         description: 'Development server',
       },
     ],
